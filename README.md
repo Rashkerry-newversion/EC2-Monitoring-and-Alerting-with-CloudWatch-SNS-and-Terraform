@@ -1,1 +1,0 @@
-# EC2-Monitoring-and-Alerting-with-CloudWatch-SNS-and-Terraform
