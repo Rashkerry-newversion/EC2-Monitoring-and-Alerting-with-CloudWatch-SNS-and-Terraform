@@ -9,17 +9,17 @@ variable "key_name" {
 }
 
 variable "security_group" {
-  default = "sg-001da4cea5245eb19" # Actual SG ID (not name)
+  default = "security-group-ID" # Actual SG ID (not name)
 }
 
 variable "email_address" {
-  default = "rashidamohammed666@gmail.com"
+  default = "your-email"
 }
 
 # ========== main.tf ==========
 
 resource "aws_instance" "monitored_ec2" {
-  ami                    = "ami-0953476d60561c955" # Amazon Linux 2 (us-east-1)
+  ami                    = "Your-preferred-AMI" # Amazon Linux 2 (us-east-1)
   instance_type          = "t2.micro"
   key_name               = var.key_name
   vpc_security_group_ids = [var.security_group]     # ✅ FIXED: changed from security_groups
