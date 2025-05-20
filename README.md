@@ -39,13 +39,12 @@ Includes:
 
 ### 💻 Step 2: Deploy with Terraform
 
-![Terraform success](images/image3.png)
-
 ```bash
 terraform init
 terraform plan
 terraform apply
 ```
+![Terraform success](images/image3.png)
 
 ### 📧 Step 3: Confirm Email Subscription
 
