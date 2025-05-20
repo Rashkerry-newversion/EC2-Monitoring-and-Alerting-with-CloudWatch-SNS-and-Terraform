@@ -2,15 +2,6 @@
 
 > A simple and scalable monitoring solution for an Amazon EC2 instance using Infrastructure as Code (IaC) with Terraform.
 
-## 📁 Project Members
-
-- Rashida Mohammed  
-- Belinda Kafui Bansah  
-- Robert Nyavor  
-- Efia Birago  
-- Emmanuel Ghartey  
-- Eric Datsa
-
 ## 🧩 Architecture Overview
 
 **Monitoring Flow:**  
